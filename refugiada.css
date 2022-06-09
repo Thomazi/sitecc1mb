@@ -1,0 +1,121 @@
+*{
+ margin:0;
+padding:0;
+box-sizing: border-box;
+}
+
+body{
+background-color: #5F7C8A;
+}
+
+form{
+
+  background-color:white;
+  max-width: 500px;
+  width: 70%;
+  padding: 20px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+ 
+}
+
+form h1{
+text-align: center;
+color: #5F7C8A;
+font-family: "lucida-sans";
+}
+
+form h5{
+  
+  color: #5F7C8A;
+  font-family: "lucida-sans";
+}
+
+form input[type=text],
+form input[type=password]{
+ width: 100%;
+ height: 45px;
+ border: 1px solid #ccc;
+ padding-left: 10px;
+ margin: 10px 0;
+}
+
+form input[type=submit]{
+     width: 100%;
+     height: 30px;
+     cursor: pointer;
+     background:#5F7C8A;
+     color: white;
+     border: 0;
+     border-radius: 20px;
+     transition: 1s;
+}
+
+form input[type=submit]:hover{
+background-color: #516770;
+}
+  
+form input[type=text]:focus{
+  outline: 0;
+}
+
+form input[type=password]:focus{
+  outline: 0;
+}
+
+  #textoo{
+      
+  color: #ffffff;
+  font-family: "lucida-sans";
+  text-decoration: none;
+  text-align: center;
+  border-style: solid;
+  border-color: #335261 #335261 #516770 #516770;
+  border-width: 5px 5px 5px;
+  background: #335261;
+  border-radius: 20px;
+  float: right; 
+
+  }
+
+#crie{
+    width: 26%;
+     height: 30px;
+     cursor: pointer;
+     background:#335261;
+     color: white;
+     border: 0;
+     border-radius: 20px;
+     transition: 1s;
+     float: left; 
+     margin-top: 10px;
+     
+   }
+
+#crie:hover{
+  background-color: #516770;
+}
+
+
+#esqueceu{
+     width: 26%;
+     height: 30px;
+     cursor: pointer;
+     background:#335261;
+     color: white;
+     border: 0;
+     border-radius: 20px;
+     transition: 1s;
+     float: right; 
+     margin-top: 10px;
+
+}
+#esqueceu:hover{
+  background-color: #516770;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
